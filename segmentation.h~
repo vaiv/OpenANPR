@@ -1,0 +1,40 @@
+#ifndef SEGMENTATION_H
+#define SEGMENTATION_H
+
+#include <tesseract/baseapi.h>
+#include <leptonica/allheaders.h>
+#include<iostream>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include<vector>
+
+#define kernel_size 3
+#define Ratio 3
+#define lowThresh 70
+#define minContourArea 100
+#define minCos -0.4
+#define maxCos 0.4
+#define minAspectRatio 2.4
+#define maxAspectRatio 5.4
+
+using namespace cv;
+using namespace std;
+
+class segmentation
+{
+    	std::vector<std::vector<cv::Point> > seg,fin;
+	Mat src,src_gray,chan[3],detected_edges[4];
+	vector<Mat> res;
+
+	void detect_edges();
+	void extract_contours();
+	void affine_transform();
+
+public:
+	segmentation(Mat src);
+	vector<Mat> getResult();
+	
+
+};
+
+#endif // SEGMENTATION_H

@@ -1,0 +1,34 @@
+#ifndef CHAREXTRACTION_H
+#define CHAREXTRACTION_H
+
+
+#include "TextDetection.h"
+#include "segmentation.h"
+#include <cstring>
+#include<sstream>
+
+#define minArea 3000
+
+using namespace DetectText;
+
+class charExtraction
+{
+	int idx;
+	double imgArea;
+	string res,path;
+	Mat src;
+
+	void enhanceImage();
+//function to compute stroke width transform
+	Mat SWT();
+//function for call to ocr
+	void ocr();
+	
+public:
+
+	charExtraction(Mat src,int idx);
+	string getResultString();
+	
+};
+#endif // CHAREXTRACTION_H
+
