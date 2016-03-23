@@ -24,6 +24,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include<vector>
+#include<cmath>
 
 #define kernel_size 3
 #define Ratio 3
@@ -42,6 +43,7 @@ class segmentation
     	std::vector<std::vector<cv::Point> > seg,fin;
 	Mat src,src_gray,chan[3],detected_edges[4];
 	vector<Mat> res;
+	vector<RotatedRect> num_list;
 
 	void detect_edges();
 	void extract_contours();

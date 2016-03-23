@@ -139,6 +139,7 @@ void segmentation::affine_transform()
 {
 	for(int i=0;i<fin.size();i++)
     		{
+			int flag=0;
         		Mat roi= src(boundingRect(fin[i]));
 
         		RotatedRect rec=minAreaRect(fin[i]);
@@ -173,7 +174,17 @@ void segmentation::affine_transform()
             		Size size(rec.boundingRect().width, rec.boundingRect().height);
             		warpAffine(src, rotated, warpAffineMatrix, size, INTER_LINEAR, BORDER_CONSTANT);
             		//flip(rotated,rotated,-1);
-			res.push_back(rotated);
+			//prevent repetition
+			for(int z=0;z<num_list.size();z++)
+			{
+				if(fabs(num_list[z].center.x-cent.x)<4 && fabs(num_list[z].center.y-cent.y)<4)
+				flag=1;
+			}
+			if(!flag)
+			{
+				res.push_back(rotated);
+				num_list.push_back(rec);
+			}
 			imshow("hg",rotated);
          		cv::waitKey(0);
 		}

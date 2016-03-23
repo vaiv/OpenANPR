@@ -48,7 +48,7 @@ void charExtraction::enhanceImage()
 
 Mat charExtraction::SWT()
 {
-	Mat swt_output = textDetection(src, 1);
+	Mat swt_output = textDetection(src, 0);
 	return swt_output;
 } 
 
@@ -57,9 +57,15 @@ void charExtraction::ocr()
 	Mat swt_output=SWT();
 	Mat sub;
 	if(imgArea<minArea)
-	sub=src;
+	{
+		sub=src;
+		cout<<"area low res"<<endl;
+	}
 	else 
-	sub=swt_output;
+	{
+		sub=swt_output;
+		cout<<"area high res"<<endl;
+	}
 
 	stringstream ss;
 	ss<<idx;
