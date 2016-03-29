@@ -34,7 +34,8 @@ class charExtraction
 	double imgArea;
 	string res,path;
 	Mat src;
-
+	
+	Mat Cluster(Mat img);
 	void enhanceImage();
 //function to compute stroke width transform
 	Mat SWT();

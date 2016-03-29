@@ -29,19 +29,108 @@ charExtraction::charExtraction(Mat src,int idx)
 	
 }
 
+Mat charExtraction::Cluster(Mat img)
+{
+
+	Mat3b imlab;
+    	cvtColor(img, imlab, CV_BGR2Lab);
+
+    	/* Cluster image */
+    	vector<cv::Mat3b> imgRGB;
+    	int k = 2;
+    	int n = img.rows * img.cols;
+    	Mat img3xN(n, 3, CV_8U);
+
+    	split(imlab, imgRGB);
+
+    	for (int i = 0; i != 3; ++i)
+        	imgRGB[i].reshape(1, n).copyTo(img3xN.col(i));
+
+    	img3xN.convertTo(img3xN, CV_32F);
+
+    	vector<int> bestLables;
+    	kmeans(img3xN, k, bestLables, cv::TermCriteria(), 10, cv::KMEANS_RANDOM_CENTERS);
+
+    	/* Find the largest cluster*/
+    	int max = 0, indx= 0, id = 0;
+    	vector<int> clusters(k,0);
+
+    	for (size_t i = 0; i < bestLables.size(); i++)
+    		{
+        		id = bestLables[i];
+        		clusters[id]++;
+
+        		if (clusters[id] > max)
+        		{
+            			max = clusters[id];
+            			indx = id;
+        		}
+    		}
+
+    /* save largest cluster */
+    	int cluster = indx;
+
+    	vector<Point> shape; 
+    	shape.reserve(2000);
+
+    	for (int y = 0; y < imlab.rows; y++)
+    	{
+        	for (int x = 0; x < imlab.cols; x++)
+        	{
+            		if (bestLables[y*imlab.cols + x] == cluster) 
+            			{
+                			shape.emplace_back(x, y);
+            			}
+        	}
+    	}
+
+    	int inc = shape.size();
+
+    // Show results
+    	Mat3b res(img.size(), Vec3b(0,0,0));
+    	vector<Vec3b> colors;
+    	for(int i=0; i<k; ++i)
+    	{
+        	if(i == indx) {
+            		colors.push_back(Vec3b(255, 255,255));
+        	} else {
+            		colors.push_back(Vec3b(0, 0 / (i+1), 0));
+        		}
+    	}
+
+    	for(int r=0; r<img.rows; ++r)
+    	{
+        	for(int c=0; c<img.cols; ++c)
+        	{
+           		 res(r,c) = colors[bestLables[r*imlab.cols + c]];
+        	}
+    	}
+
+    	imshow("Clustering", res);
+    	waitKey(0);
+	return res;
+
+	
+}
+
 void charExtraction::enhanceImage()
 {
 	//cvtColor(src,src,CV_BGR2GRAY);
         resize(src, src, Size(), 2,2, INTER_CUBIC );
+	//src=Cluster(src);
 
-//	int erosion_size=1.5;
-//      Mat element = getStructuringElement( MORPH_RECT,
-//                                              Size( 2*erosion_size + 1, 2*erosion_size+1 ),
-//                                              Point( erosion_size, erosion_size ) );
+	//TODO Blob detection thresholding area and inertia for removal of non characters
 
-//      erode( rotated,rotated,element);
+   	//dilation helps in certain cases
+	int erosion_size=1;
+        Mat element = getStructuringElement( MORPH_RECT,
+                                            Size( 2*erosion_size + 1, 2*erosion_size+1 ),
+                                            Point( erosion_size, erosion_size ) );
+
+        //dilate( src,src,element);
+	//erode( src,src,element);
 	cvtColor(src, src, CV_BGR2RGB);
-
+	imwrite("./res/tmp.jpg",src);
 	imshow("ww",src);
 	waitKey(0);
 }

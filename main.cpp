@@ -15,7 +15,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-
+/*
+ g++ -std=c++11 -o ANPR ../main.cpp ../segmentation.h ../segmentation.cpp ../charExtraction.h  ../charExtraction.cpp ../TextDetection.h ../TextDetection.cpp -I /usr/local/include/opencv2 -L/usr/local/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -ltesseract -llept  
+*/
 #include <iostream>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
