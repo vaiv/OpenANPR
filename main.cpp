@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
     vector<Mat> res=X.getResult();
 
     for(int i=0;i<res.size();i++)
-    {
+   {
         charExtraction tmp(res[i],i);
         cout<<"number_plate "<<i<<":"<<tmp.getResultString()<<endl;
     }

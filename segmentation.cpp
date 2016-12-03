@@ -29,7 +29,8 @@ static double angle(cv::Point pt1, cv::Point pt2, cv::Point pt0)
 
 segmentation::segmentation(Mat src)
 {
-	this->src=src;
+	resize(src,src,cvSize(1280,720));
+	this->src=src;	
 	cvtColor( src, src_gray, CV_BGR2GRAY );
 	split(src,chan);
 	detect_edges();
@@ -187,6 +188,10 @@ void segmentation::affine_transform()
 			}
 			imshow("hg",rotated);
          		cv::waitKey(0);
+			stringstream ss;
+			ss<<i;
+			string path=string("res")+ss.str()+string(".jpg");
+			imwrite(path.c_str(),rotated);
 		}
 
 }

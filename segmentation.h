@@ -25,6 +25,8 @@
 #include <opencv2/highgui/highgui.hpp>
 #include<vector>
 #include<cmath>
+#include<cstring>
+#include<sstream>
 
 #define kernel_size 3
 #define Ratio 3
