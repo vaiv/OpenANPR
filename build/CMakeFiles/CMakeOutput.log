@@ -582,3 +582,1639 @@ make[1]: Leaving directory `/home/vaibhav/ANPR/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }
+The system is: Linux - 4.8.0-58-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a42e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a42e3.dir/build.make CMakeFiles/cmTC_a42e3.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a42e3.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a42e3.dir/testCCompiler.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a42e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a42e3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a42e3.dir/testCCompiler.c.o  -o cmTC_a42e3 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c4af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c4af.dir/build.make CMakeFiles/cmTC_3c4af.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3c4af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c4af.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o  -o cmTC_3c4af -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3c4af' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFGDr0j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3c4af /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3c4af/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3c4af.dir/build.make CMakeFiles/cmTC_3c4af.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3c4af]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c4af.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o  -o cmTC_3c4af -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3c4af' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFGDr0j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3c4af /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFGDr0j.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3c4af] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_3c4af.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f00e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f00e4.dir/build.make CMakeFiles/cmTC_f00e4.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f00e4.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_f00e4.dir/feature_tests.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f00e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f00e4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f00e4.dir/feature_tests.c.o  -o cmTC_f00e4 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c46e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c46e0.dir/build.make CMakeFiles/cmTC_c46e0.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c46e0.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_c46e0.dir/feature_tests.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c46e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c46e0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c46e0.dir/feature_tests.c.o  -o cmTC_c46e0 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d18d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d18d.dir/build.make CMakeFiles/cmTC_0d18d.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d18d.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0d18d.dir/feature_tests.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0d18d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d18d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0d18d.dir/feature_tests.c.o  -o cmTC_0d18d -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39665/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39665.dir/build.make CMakeFiles/cmTC_39665.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39665.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_39665.dir/testCXXCompiler.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_39665
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39665.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_39665.dir/testCXXCompiler.cxx.o  -o cmTC_39665 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_552d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_552d8.dir/build.make CMakeFiles/cmTC_552d8.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_552d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552d8.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_552d8 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_552d8' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXl0e0D.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_552d8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_552d8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_552d8.dir/build.make CMakeFiles/cmTC_552d8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_552d8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_552d8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_552d8 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_552d8' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXl0e0D.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_552d8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXl0e0D.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_552d8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_552d8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0048e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0048e.dir/build.make CMakeFiles/cmTC_0048e.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0048e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_0048e.dir/feature_tests.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0048e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0048e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0048e.dir/feature_tests.cxx.o  -o cmTC_0048e -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3eb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3eb2.dir/build.make CMakeFiles/cmTC_a3eb2.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3eb2.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_a3eb2.dir/feature_tests.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a3eb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3eb2.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_a3eb2.dir/feature_tests.cxx.o  -o cmTC_a3eb2 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae599/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae599.dir/build.make CMakeFiles/cmTC_ae599.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae599.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_ae599.dir/feature_tests.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ae599
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae599.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ae599.dir/feature_tests.cxx.o  -o cmTC_ae599 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30cdc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30cdc.dir/build.make CMakeFiles/cmTC_30cdc.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30cdc.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_30cdc.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_30cdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30cdc.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_30cdc.dir/src.cxx.o  -o cmTC_30cdc -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ba3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ba3d.dir/build.make CMakeFiles/cmTC_8ba3d.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ba3d.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_8ba3d.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8ba3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ba3d.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_8ba3d.dir/src.cxx.o  -o cmTC_8ba3d -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e604/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e604.dir/build.make CMakeFiles/cmTC_3e604.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e604.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_3e604.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3e604
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e604.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_3e604.dir/src.cxx.o  -o cmTC_3e604 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a74c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a74c0.dir/build.make CMakeFiles/cmTC_a74c0.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a74c0.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_a74c0.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a74c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a74c0.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_a74c0.dir/src.cxx.o  -o cmTC_a74c0 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77d4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77d4c.dir/build.make CMakeFiles/cmTC_77d4c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77d4c.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_77d4c.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_77d4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77d4c.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_77d4c.dir/src.cxx.o  -o cmTC_77d4c -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b81e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b81e.dir/build.make CMakeFiles/cmTC_5b81e.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5b81e.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_5b81e.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5b81e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b81e.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_5b81e.dir/src.cxx.o  -o cmTC_5b81e -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a28f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a28f4.dir/build.make CMakeFiles/cmTC_a28f4.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a28f4.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_a28f4.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a28f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a28f4.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_a28f4.dir/src.cxx.o  -o cmTC_a28f4 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcb95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcb95.dir/build.make CMakeFiles/cmTC_fcb95.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fcb95.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_fcb95.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fcb95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcb95.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_fcb95.dir/src.cxx.o  -o cmTC_fcb95 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5136a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5136a.dir/build.make CMakeFiles/cmTC_5136a.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5136a.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_5136a.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5136a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5136a.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_5136a.dir/src.cxx.o  -o cmTC_5136a -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb3ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb3ed.dir/build.make CMakeFiles/cmTC_eb3ed.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb3ed.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_eb3ed.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eb3ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb3ed.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_eb3ed.dir/src.cxx.o  -o cmTC_eb3ed -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3206e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3206e.dir/build.make CMakeFiles/cmTC_3206e.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3206e.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_3206e.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3206e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3206e.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_3206e.dir/src.cxx.o  -o cmTC_3206e -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e2c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e2c4.dir/build.make CMakeFiles/cmTC_4e2c4.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e2c4.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_4e2c4.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4e2c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e2c4.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_4e2c4.dir/src.cxx.o  -o cmTC_4e2c4 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a559c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a559c.dir/build.make CMakeFiles/cmTC_a559c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a559c.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_a559c.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a559c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a559c.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_a559c.dir/src.cxx.o  -o cmTC_a559c -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_de0e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de0e3.dir/build.make CMakeFiles/cmTC_de0e3.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de0e3.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_de0e3.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de0e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de0e3.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_de0e3.dir/src.cxx.o  -o cmTC_de0e3 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89566/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89566.dir/build.make CMakeFiles/cmTC_89566.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89566.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_89566.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_89566
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89566.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_89566.dir/src.cxx.o  -o cmTC_89566 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85ffb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85ffb.dir/build.make CMakeFiles/cmTC_85ffb.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85ffb.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_85ffb.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_85ffb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85ffb.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_85ffb.dir/src.cxx.o  -o cmTC_85ffb -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6dce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6dce.dir/build.make CMakeFiles/cmTC_b6dce.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b6dce.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_b6dce.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6dce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6dce.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_b6dce.dir/src.cxx.o  -o cmTC_b6dce -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ee21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ee21.dir/build.make CMakeFiles/cmTC_1ee21.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ee21.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_1ee21.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1ee21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ee21.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_1ee21.dir/src.cxx.o  -o cmTC_1ee21 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7351/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7351.dir/build.make CMakeFiles/cmTC_c7351.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTC_c7351.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_c7351.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking CXX executable cmTC_c7351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7351.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_c7351.dir/src.cxx.o  -o cmTC_c7351 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b9b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b9b0.dir/build.make CMakeFiles/cmTC_7b9b0.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTC_7b9b0.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_7b9b0.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking CXX executable cmTC_7b9b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b9b0.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_7b9b0.dir/src.cxx.o  -o cmTC_7b9b0 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b05b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b05b.dir/build.make CMakeFiles/cmTC_5b05b.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTC_5b05b.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_5b05b.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking CXX executable cmTC_5b05b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b05b.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_5b05b.dir/src.cxx.o  -o cmTC_5b05b -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40cc3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40cc3.dir/build.make CMakeFiles/cmTC_40cc3.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building CXX object CMakeFiles/cmTC_40cc3.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_40cc3.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking CXX executable cmTC_40cc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40cc3.dir/link.txt --verbose=1
+/usr/bin/cmake: /home/vaibhav/anaconda2/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_40cc3.dir/src.cxx.o  -o cmTC_40cc3 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5e6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5e6a.dir/build.make CMakeFiles/cmTC_a5e6a.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5e6a.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_a5e6a.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a5e6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5e6a.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_a5e6a.dir/src.cxx.o  -o cmTC_a5e6a -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a97b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2a97b.dir/build.make CMakeFiles/cmTC_2a97b.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2a97b.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_2a97b.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2a97b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a97b.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_2a97b.dir/src.cxx.o  -o cmTC_2a97b -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a16ab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a16ab.dir/build.make CMakeFiles/cmTC_a16ab.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a16ab.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_a16ab.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a16ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a16ab.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_a16ab.dir/src.cxx.o  -o cmTC_a16ab -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c947/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c947.dir/build.make CMakeFiles/cmTC_0c947.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c947.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_0c947.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0c947
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c947.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_0c947.dir/src.cxx.o  -o cmTC_0c947 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c757d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c757d.dir/build.make CMakeFiles/cmTC_c757d.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c757d.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_c757d.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c757d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c757d.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_c757d.dir/src.cxx.o  -o cmTC_c757d -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d841/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d841.dir/build.make CMakeFiles/cmTC_9d841.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d841.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_9d841.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d841.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_9d841.dir/src.cxx.o  -o cmTC_9d841 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27eae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27eae.dir/build.make CMakeFiles/cmTC_27eae.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_27eae.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_27eae.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_27eae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27eae.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_27eae.dir/src.cxx.o  -o cmTC_27eae -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e0a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e0a5.dir/build.make CMakeFiles/cmTC_1e0a5.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e0a5.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_1e0a5.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e0a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e0a5.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_1e0a5.dir/src.cxx.o  -o cmTC_1e0a5 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4b59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4b59.dir/build.make CMakeFiles/cmTC_e4b59.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4b59.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_e4b59.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e4b59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4b59.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_e4b59.dir/src.cxx.o  -o cmTC_e4b59 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_910c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_910c3.dir/build.make CMakeFiles/cmTC_910c3.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_910c3.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_910c3.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_910c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_910c3.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_910c3.dir/src.cxx.o  -o cmTC_910c3 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_238bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_238bc.dir/build.make CMakeFiles/cmTC_238bc.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_238bc.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_238bc.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_238bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_238bc.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_238bc.dir/src.cxx.o  -o cmTC_238bc -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93e8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93e8e.dir/build.make CMakeFiles/cmTC_93e8e.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93e8e.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_93e8e.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_93e8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e8e.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_93e8e.dir/src.cxx.o  -o cmTC_93e8e -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b87a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b87a3.dir/build.make CMakeFiles/cmTC_b87a3.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b87a3.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_b87a3.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b87a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b87a3.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_b87a3.dir/src.cxx.o  -o cmTC_b87a3 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98178/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98178.dir/build.make CMakeFiles/cmTC_98178.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98178.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_98178.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98178
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98178.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_98178.dir/src.cxx.o  -o cmTC_98178 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7278/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7278.dir/build.make CMakeFiles/cmTC_f7278.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7278.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_f7278.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f7278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7278.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_f7278.dir/src.cxx.o  -o cmTC_f7278 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49858/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49858.dir/build.make CMakeFiles/cmTC_49858.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49858.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_49858.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_49858
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49858.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_49858.dir/src.cxx.o  -o cmTC_49858 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d426/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d426.dir/build.make CMakeFiles/cmTC_9d426.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d426.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_9d426.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d426.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_9d426.dir/src.cxx.o  -o cmTC_9d426 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a1a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a1a3.dir/build.make CMakeFiles/cmTC_1a1a3.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a1a3.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_1a1a3.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a1a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a1a3.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_1a1a3.dir/src.cxx.o  -o cmTC_1a1a3 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4b1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4b1c.dir/build.make CMakeFiles/cmTC_b4b1c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4b1c.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_b4b1c.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b4b1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4b1c.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_b4b1c.dir/src.cxx.o  -o cmTC_b4b1c -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7e3e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7e3e.dir/build.make CMakeFiles/cmTC_d7e3e.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7e3e.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_d7e3e.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d7e3e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7e3e.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_d7e3e.dir/src.cxx.o  -o cmTC_d7e3e -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2231c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2231c.dir/build.make CMakeFiles/cmTC_2231c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2231c.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_2231c.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2231c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2231c.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_2231c.dir/src.cxx.o  -o cmTC_2231c -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77544/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77544.dir/build.make CMakeFiles/cmTC_77544.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77544.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_77544.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_77544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77544.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_77544.dir/src.cxx.o  -o cmTC_77544 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d9e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d9e7.dir/build.make CMakeFiles/cmTC_6d9e7.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6d9e7.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_6d9e7.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6d9e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d9e7.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_6d9e7.dir/src.cxx.o  -o cmTC_6d9e7 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1963/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1963.dir/build.make CMakeFiles/cmTC_b1963.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1963.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_b1963.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1963.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_b1963.dir/src.cxx.o  -o cmTC_b1963 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa46f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa46f.dir/build.make CMakeFiles/cmTC_aa46f.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa46f.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_aa46f.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa46f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa46f.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_aa46f.dir/src.cxx.o  -o cmTC_aa46f -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c386c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c386c.dir/build.make CMakeFiles/cmTC_c386c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c386c.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_c386c.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c386c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c386c.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_c386c.dir/src.cxx.o  -o cmTC_c386c -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5fbda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5fbda.dir/build.make CMakeFiles/cmTC_5fbda.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5fbda.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_5fbda.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5fbda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fbda.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_5fbda.dir/src.cxx.o  -o cmTC_5fbda -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c57b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c57b.dir/build.make CMakeFiles/cmTC_4c57b.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c57b.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_4c57b.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4c57b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c57b.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_4c57b.dir/src.cxx.o  -o cmTC_4c57b -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78764/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78764.dir/build.make CMakeFiles/cmTC_78764.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_78764.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_78764.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_78764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78764.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_78764.dir/src.cxx.o  -o cmTC_78764 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d13ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d13ee.dir/build.make CMakeFiles/cmTC_d13ee.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d13ee.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_d13ee.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d13ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d13ee.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_d13ee.dir/src.cxx.o  -o cmTC_d13ee -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa0cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa0cb.dir/build.make CMakeFiles/cmTC_aa0cb.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa0cb.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_aa0cb.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa0cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa0cb.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_aa0cb.dir/src.cxx.o  -o cmTC_aa0cb -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70fa5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70fa5.dir/build.make CMakeFiles/cmTC_70fa5.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70fa5.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_70fa5.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_70fa5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70fa5.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_70fa5.dir/src.cxx.o  -o cmTC_70fa5 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf974/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf974.dir/build.make CMakeFiles/cmTC_cf974.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf974.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_cf974.dir/CheckIncludeFile.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cf974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf974.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_cf974.dir/CheckIncludeFile.c.o  -o cmTC_cf974 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_062e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_062e8.dir/build.make CMakeFiles/cmTC_062e8.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_062e8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_062e8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_062e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_062e8.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_062e8.dir/CheckFunctionExists.c.o  -o cmTC_062e8 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3c95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3c95.dir/build.make CMakeFiles/cmTC_a3c95.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3c95.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_a3c95.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a3c95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3c95.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_a3c95.dir/src.cxx.o  -o cmTC_a3c95 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6db69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6db69.dir/build.make CMakeFiles/cmTC_6db69.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6db69.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_6db69.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6db69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6db69.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_6db69.dir/src.cxx.o  -o cmTC_6db69 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_354b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_354b8.dir/build.make CMakeFiles/cmTC_354b8.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_354b8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_354b8.dir/CheckIncludeFile.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_354b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_354b8.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_354b8.dir/CheckIncludeFile.c.o  -o cmTC_354b8 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbf8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbf8c.dir/build.make CMakeFiles/cmTC_fbf8c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbf8c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fbf8c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbf8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf8c.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fbf8c.dir/CheckFunctionExists.c.o  -o cmTC_fbf8c -rdynamic -lpthread 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a433/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a433.dir/build.make CMakeFiles/cmTC_9a433.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a433.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_9a433.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9a433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a433.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_9a433.dir/src.cxx.o  -o cmTC_9a433 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86270/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86270.dir/build.make CMakeFiles/cmTC_86270.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86270.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_86270.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_86270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86270.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_86270.dir/src.cxx.o  -o cmTC_86270 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fccd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fccd.dir/build.make CMakeFiles/cmTC_0fccd.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fccd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_0fccd.dir/CheckIncludeFile.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0fccd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fccd.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_0fccd.dir/CheckIncludeFile.c.o  -o cmTC_0fccd -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b843e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b843e.dir/build.make CMakeFiles/cmTC_b843e.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b843e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b843e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b843e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b843e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b843e.dir/CheckFunctionExists.c.o  -o cmTC_b843e -rdynamic -lpthread 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40156/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40156.dir/build.make CMakeFiles/cmTC_40156.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40156.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_40156.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_40156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40156.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_40156.dir/src.cxx.o  -o cmTC_40156 -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47c1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47c1c.dir/build.make CMakeFiles/cmTC_47c1c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47c1c.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_47c1c.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_47c1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47c1c.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_47c1c.dir/src.cxx.o  -o cmTC_47c1c -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d468f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d468f.dir/build.make CMakeFiles/cmTC_d468f.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d468f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_d468f.dir/CheckIncludeFile.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d468f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d468f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_d468f.dir/CheckIncludeFile.c.o  -o cmTC_d468f -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76bec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76bec.dir/build.make CMakeFiles/cmTC_76bec.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76bec.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_76bec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76bec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76bec.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_76bec.dir/CheckFunctionExists.c.o  -o cmTC_76bec -rdynamic -lpthread 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6f7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6f7a.dir/build.make CMakeFiles/cmTC_f6f7a.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6f7a.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_f6f7a.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f6f7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f7a.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11    CMakeFiles/cmTC_f6f7a.dir/src.cxx.o  -o cmTC_f6f7a -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2992b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2992b.dir/build.make CMakeFiles/cmTC_2992b.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2992b.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_2992b.dir/src.cxx.o -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2992b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2992b.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X    CMakeFiles/cmTC_2992b.dir/src.cxx.o  -o cmTC_2992b -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cf7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cf7f.dir/build.make CMakeFiles/cmTC_5cf7f.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cf7f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_5cf7f.dir/CheckIncludeFile.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5cf7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf7f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_5cf7f.dir/CheckIncludeFile.c.o  -o cmTC_5cf7f -rdynamic 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df755/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df755.dir/build.make CMakeFiles/cmTC_df755.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df755.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_df755.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_df755
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df755.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_df755.dir/CheckFunctionExists.c.o  -o cmTC_df755 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+

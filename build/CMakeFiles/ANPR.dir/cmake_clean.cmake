@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ANPR.dir/charExtraction.cpp.o"
-  "CMakeFiles/ANPR.dir/main.cpp.o"
-  "CMakeFiles/ANPR.dir/segmentation.cpp.o"
-  "CMakeFiles/ANPR.dir/TextDetection.cpp.o"
+  "CMakeFiles/ANPR.dir/src/charExtraction.cpp.o"
+  "CMakeFiles/ANPR.dir/src/main.cpp.o"
+  "CMakeFiles/ANPR.dir/src/segmentation.cpp.o"
+  "CMakeFiles/ANPR.dir/src/TextDetection.cpp.o"
+  "CMakeFiles/ANPR.dir/src/charRecognition.cpp.o"
   "ANPR.pdb"
   "ANPR"
 )
