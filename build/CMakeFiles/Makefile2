@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/vaibhav/Projects/OpenANPR/build
 CMakeFiles/ANPR.dir/all:
 	$(MAKE) -f CMakeFiles/ANPR.dir/build.make CMakeFiles/ANPR.dir/depend
 	$(MAKE) -f CMakeFiles/ANPR.dir/build.make CMakeFiles/ANPR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vaibhav/Projects/OpenANPR/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ANPR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vaibhav/Projects/OpenANPR/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ANPR"
 .PHONY : CMakeFiles/ANPR.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/ANPR.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ANPR.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vaibhav/Projects/OpenANPR/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vaibhav/Projects/OpenANPR/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ANPR.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vaibhav/Projects/OpenANPR/build/CMakeFiles 0
 .PHONY : CMakeFiles/ANPR.dir/rule

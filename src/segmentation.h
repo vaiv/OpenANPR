@@ -27,6 +27,7 @@
 #include<cmath>
 #include<cstring>
 #include<sstream>
+#include "arapaho.hpp"
 
 #define kernel_size 3
 #define Ratio 3
@@ -34,8 +35,9 @@
 #define minContourArea 100
 #define minCos -0.4
 #define maxCos 0.4
-#define minAspectRatio 2.4
+#define minAspectRatio 0.9
 #define maxAspectRatio 9.0
+#define MAX_OBJ_LIM 100
 
 using namespace cv;
 using namespace std;
@@ -43,18 +45,27 @@ using namespace std;
 class segmentation
 {
     	std::vector<std::vector<cv::Point> > seg,fin;
-	Mat src,src_gray,chan[3],detected_edges[4];
-	vector<Mat> res;
+	Mat src;
+	ArapahoV2ImageBuff arapahoImage;
+	vector<Mat> res,detected_edges,detected_plates;
 	vector<RotatedRect> num_list;
 
-	void detect_edges();
+	string INPUT_DATA_FILE,INPUT_CFG_FILE,INPUT_WEIGHTS_FILE;
+	ArapahoV2* p;
+	ArapahoV2Params ap;
+	bool valid_config;
+
+	void detect_edges(Mat src_gray, Mat chan[]);
 	void extract_contours();
-	void affine_transform();
+	void affine_transform(Mat img, vector< vector < cv::Point > > contours,int im_id);
+	bool set_params();
+	void detect_plates();
+	void localize_plate();
 
 public:
-	segmentation(Mat src);
+	segmentation(Mat src,int argc,char** argv);
 	vector<Mat> getResult();
-	
+	bool set_files(int argc, char**argv);
 
 };
 

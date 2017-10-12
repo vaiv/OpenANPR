@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/vaibhav/Projects/OpenANPR/distribute/src/arapaho.cpp" "/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/ANPR.dir/distribute/src/arapaho.cpp.o"
   "/home/vaibhav/Projects/OpenANPR/src/TextDetection.cpp" "/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/ANPR.dir/src/TextDetection.cpp.o"
   "/home/vaibhav/Projects/OpenANPR/src/charExtraction.cpp" "/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/ANPR.dir/src/charExtraction.cpp.o"
   "/home/vaibhav/Projects/OpenANPR/src/charRecognition.cpp" "/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/ANPR.dir/src/charRecognition.cpp.o"
@@ -16,7 +17,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "/usr/local/cuda-8.0/include"
-  "/home/vaibhav/caffe/distribute/include"
+  "../distribute/include"
+  "../distribute/src"
   "/usr/local/include/opencv"
   )
 

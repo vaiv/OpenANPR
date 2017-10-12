@@ -24,8 +24,8 @@
 #include <cstring>
 #include<sstream>
 
-#define minArea 3000
-#define charPlateRatio 0.5
+#define minArea 300
+#define charPlateRatio 0.4
 #define areaTolerance 0.2
 
 using namespace DetectText;

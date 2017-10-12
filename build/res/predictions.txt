@@ -1,0 +1,76 @@
+CNN predicition: Number Plate 0: VVVVVV88II
+tesseract prediction: Number Plate 0: VVVB!
+
+
+CNN predicition: Number Plate 1: YYYYYY2211
+tesseract prediction: Number Plate 1: VVVH/
+
+
+CNN predicition: Number Plate 2: YYVVYYZZ11
+tesseract prediction: Number Plate 2: WWI
+
+
+CNN predicition: Number Plate 3: YYYYYY2211
+tesseract prediction: Number Plate 3: WWI
+
+
+CNN predicition: Number Plate 4: YYVVVVEE11
+tesseract prediction: Number Plate 4: WV?!
+
+
+CNN predicition: Number Plate 5: YYYYYYEE11
+tesseract prediction: Number Plate 5: WWI
+
+
+CNN predicition: Number Plate 6: YYVVYYEE11
+tesseract prediction: Number Plate 6: VWB/
+
+
+CNN predicition: Number Plate 7: YYYYYYZZII
+tesseract prediction: Number Plate 7: WWI
+
+
+CNN predicition: Number Plate 8: YYYYVVEE11
+tesseract prediction: Number Plate 8: VVVB/
+
+
+CNN predicition: Number Plate 9: YYVVYYEE11
+tesseract prediction: Number Plate 9: VWB/
+
+
+CNN predicition: Number Plate 10: YYYYVV88II
+tesseract prediction: Number Plate 10: VWﬁ/
+
+
+CNN predicition: Number Plate 11: YYYYVVEEII
+tesseract prediction: Number Plate 11: WWI
+
+
+CNN predicition: Number Plate 12: YYVVYYEE11
+tesseract prediction: Number Plate 12: VWB/
+
+
+e 13: MMOOZZBBOOLL22
+tesseract prediction: Number Plate 13: HOBoLl
+
+
+CNN predicition: Number Plate 14: MMOOCCBBLL11
+tesseract prediction: Number Plate 14: HOB L1
+
+
+CNN predicition: Number Plate 15: MMOOZZBBOOLL11
+tesseract prediction: Number Plate 15: HOBoLl
+
+
+CNN predicition: Number Plate 16: MMOOZZBBOOLL11
+tesseract prediction: Number Plate 16: HOBQLI
+
+
+CNN predicition: Number Plate 17: MMOOZZBBLL11
+tesseract prediction: Number Plate 17: HOB L1
+
+
+CNN predicition: Number Plate 18: MMOOCCBBOOLL22
+tesseract prediction: Number Plate 18: HOBoL 1
+
+

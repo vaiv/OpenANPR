@@ -123,6 +123,33 @@ ANPR/fast:
 	$(MAKE) -f CMakeFiles/ANPR.dir/build.make CMakeFiles/ANPR.dir/build
 .PHONY : ANPR/fast
 
+distribute/src/arapaho.o: distribute/src/arapaho.cpp.o
+
+.PHONY : distribute/src/arapaho.o
+
+# target to build an object file
+distribute/src/arapaho.cpp.o:
+	$(MAKE) -f CMakeFiles/ANPR.dir/build.make CMakeFiles/ANPR.dir/distribute/src/arapaho.cpp.o
+.PHONY : distribute/src/arapaho.cpp.o
+
+distribute/src/arapaho.i: distribute/src/arapaho.cpp.i
+
+.PHONY : distribute/src/arapaho.i
+
+# target to preprocess a source file
+distribute/src/arapaho.cpp.i:
+	$(MAKE) -f CMakeFiles/ANPR.dir/build.make CMakeFiles/ANPR.dir/distribute/src/arapaho.cpp.i
+.PHONY : distribute/src/arapaho.cpp.i
+
+distribute/src/arapaho.s: distribute/src/arapaho.cpp.s
+
+.PHONY : distribute/src/arapaho.s
+
+# target to generate assembly for a file
+distribute/src/arapaho.cpp.s:
+	$(MAKE) -f CMakeFiles/ANPR.dir/build.make CMakeFiles/ANPR.dir/distribute/src/arapaho.cpp.s
+.PHONY : distribute/src/arapaho.cpp.s
+
 src/TextDetection.o: src/TextDetection.cpp.o
 
 .PHONY : src/TextDetection.o
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ANPR"
+	@echo "... distribute/src/arapaho.o"
+	@echo "... distribute/src/arapaho.i"
+	@echo "... distribute/src/arapaho.s"
 	@echo "... src/TextDetection.o"
 	@echo "... src/TextDetection.i"
 	@echo "... src/TextDetection.s"

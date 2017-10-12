@@ -21,6 +21,7 @@
 #include <iostream>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include <fstream>
 #include <cmath>
 #include <stdlib.h>
 #include <stdio.h>
@@ -37,13 +38,16 @@ int main(int argc, char *argv[])
 {
     //Mat src=imread("/home/vaibhav/Desktop/cars/road.jpg");
     Mat src=imread(argv[1],CV_LOAD_IMAGE_COLOR);
+    fstream fil;
+    fil.open("./res/predictions.txt");
+    Classifier recogniser("../CharNet/lenet_char.prototxt","../CharNet/lenet_char_iter_10000.caffemodel");
     if(! src.data )                              // Check for invalid input
         {
             std::cout <<  "Could not open or find the image" << std::endl ;
             std::cout<<argv[1]<<std::endl;
             return -1;
         }
-    segmentation X(src);
+    segmentation X(src,argc,argv);
     vector<Mat> res=X.getResult();
     std::cout<<"beginning char recognition"<<std::endl;
 
@@ -51,11 +55,16 @@ int main(int argc, char *argv[])
    {
         charExtraction tmp(res[i],i);
 	//initialise classifier
-	Classifier recogniser("../CharNet/lenet_char.prototxt","../CharNet/lenet_char_iter_10000.caffemodel",tmp.getCharMasks());
-	recogniser.Run();
+	//Classifier recogniser("../CharNet/lenet_char.prototxt","../CharNet/lenet_char_iter_10000.caffemodel",tmp.getCharMasks());
+	recogniser.Run(tmp.getCharMasks());
         std::string out = recogniser.getRes();
-        cout<<"CNN predicition: Number Plate: "<<out<<endl;
-        cout<<"tesseract prediction: number_plate "<<i<<": "<<tmp.getResultString()<<endl;
+	if(out.length()>4 && tmp.getResultString().length()>4) //sanity check
+        {
+		std::cout<<"CNN predicition: Number Plate "<<i<<": "<<out<<std::endl;
+        	std::cout<<"tesseract prediction: Number Plate "<<i<<": "<<tmp.getResultString()<<std::endl;
+		fil<<"CNN predicition: Number Plate "<<i<<": "<<out<<std::endl;
+        	fil<<"tesseract prediction: Number Plate "<<i<<": "<<tmp.getResultString()<<std::endl;
+	}
     }
 
     return 0;

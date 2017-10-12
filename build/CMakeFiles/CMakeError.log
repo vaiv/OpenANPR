@@ -273,3 +273,502 @@ Makefile:126: recipe for target 'cmTC_57ce0/fast' failed
 make: *** [cmTC_57ce0/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64f69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64f69.dir/build.make CMakeFiles/cmTC_64f69.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64f69.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_64f69.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_64f69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f69.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_64f69.dir/CheckSymbolExists.c.o  -o cmTC_64f69 -rdynamic 
+CMakeFiles/cmTC_64f69.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_64f69.dir/build.make:97: recipe for target 'cmTC_64f69' failed
+make[1]: *** [cmTC_64f69] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_64f69/fast' failed
+make: *** [cmTC_64f69/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6efde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6efde.dir/build.make CMakeFiles/cmTC_6efde.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6efde.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6efde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6efde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6efde.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6efde.dir/CheckFunctionExists.c.o  -o cmTC_6efde -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6efde.dir/build.make:97: recipe for target 'cmTC_6efde' failed
+make[1]: *** [cmTC_6efde] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6efde/fast' failed
+make: *** [cmTC_6efde/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0d10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0d10.dir/build.make CMakeFiles/cmTC_e0d10.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0d10.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_e0d10.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e0d10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0d10.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_e0d10.dir/CheckSymbolExists.c.o  -o cmTC_e0d10 -rdynamic 
+CMakeFiles/cmTC_e0d10.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e0d10.dir/build.make:97: recipe for target 'cmTC_e0d10' failed
+make[1]: *** [cmTC_e0d10] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e0d10/fast' failed
+make: *** [cmTC_e0d10/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15948/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15948.dir/build.make CMakeFiles/cmTC_15948.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15948.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_15948.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15948
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15948.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_15948.dir/CheckFunctionExists.c.o  -o cmTC_15948 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_15948.dir/build.make:97: recipe for target 'cmTC_15948' failed
+make[1]: *** [cmTC_15948] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15948/fast' failed
+make: *** [cmTC_15948/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9318/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9318.dir/build.make CMakeFiles/cmTC_f9318.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9318.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_f9318.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f9318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9318.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_f9318.dir/CheckSymbolExists.c.o  -o cmTC_f9318 -rdynamic 
+CMakeFiles/cmTC_f9318.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f9318.dir/build.make:97: recipe for target 'cmTC_f9318' failed
+make[1]: *** [cmTC_f9318] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f9318/fast' failed
+make: *** [cmTC_f9318/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_daa35/fast"
+/usr/bin/make -f CMakeFiles/cmTC_daa35.dir/build.make CMakeFiles/cmTC_daa35.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_daa35.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_daa35.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_daa35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daa35.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_daa35.dir/CheckFunctionExists.c.o  -o cmTC_daa35 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_daa35.dir/build.make:97: recipe for target 'cmTC_daa35' failed
+make[1]: *** [cmTC_daa35] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_daa35/fast' failed
+make: *** [cmTC_daa35/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cad7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cad7c.dir/build.make CMakeFiles/cmTC_cad7c.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cad7c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_cad7c.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cad7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cad7c.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_cad7c.dir/CheckSymbolExists.c.o  -o cmTC_cad7c -rdynamic 
+CMakeFiles/cmTC_cad7c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cad7c.dir/build.make:97: recipe for target 'cmTC_cad7c' failed
+make[1]: *** [cmTC_cad7c] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cad7c/fast' failed
+make: *** [cmTC_cad7c/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f6af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f6af.dir/build.make CMakeFiles/cmTC_5f6af.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f6af.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5f6af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f6af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f6af.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5f6af.dir/CheckFunctionExists.c.o  -o cmTC_5f6af -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f6af.dir/build.make:97: recipe for target 'cmTC_5f6af' failed
+make[1]: *** [cmTC_5f6af] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f6af/fast' failed
+make: *** [cmTC_5f6af/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_051b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_051b5.dir/build.make CMakeFiles/cmTC_051b5.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_051b5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_051b5.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_051b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_051b5.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_051b5.dir/CheckSymbolExists.c.o  -o cmTC_051b5 -rdynamic 
+CMakeFiles/cmTC_051b5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_051b5.dir/build.make:97: recipe for target 'cmTC_051b5' failed
+make[1]: *** [cmTC_051b5] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_051b5/fast' failed
+make: *** [cmTC_051b5/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff1b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff1b9.dir/build.make CMakeFiles/cmTC_ff1b9.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff1b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ff1b9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ff1b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff1b9.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ff1b9.dir/CheckFunctionExists.c.o  -o cmTC_ff1b9 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ff1b9.dir/build.make:97: recipe for target 'cmTC_ff1b9' failed
+make[1]: *** [cmTC_ff1b9] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ff1b9/fast' failed
+make: *** [cmTC_ff1b9/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62bf3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62bf3.dir/build.make CMakeFiles/cmTC_62bf3.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62bf3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_62bf3.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_62bf3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62bf3.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_62bf3.dir/CheckSymbolExists.c.o  -o cmTC_62bf3 -rdynamic 
+CMakeFiles/cmTC_62bf3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_62bf3.dir/build.make:97: recipe for target 'cmTC_62bf3' failed
+make[1]: *** [cmTC_62bf3] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_62bf3/fast' failed
+make: *** [cmTC_62bf3/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54d1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54d1b.dir/build.make CMakeFiles/cmTC_54d1b.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54d1b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54d1b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54d1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54d1b.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_54d1b.dir/CheckFunctionExists.c.o  -o cmTC_54d1b -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_54d1b.dir/build.make:97: recipe for target 'cmTC_54d1b' failed
+make[1]: *** [cmTC_54d1b] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_54d1b/fast' failed
+make: *** [cmTC_54d1b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f66e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f66e4.dir/build.make CMakeFiles/cmTC_f66e4.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f66e4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_f66e4.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f66e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f66e4.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_f66e4.dir/CheckSymbolExists.c.o  -o cmTC_f66e4 -rdynamic 
+CMakeFiles/cmTC_f66e4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f66e4.dir/build.make:97: recipe for target 'cmTC_f66e4' failed
+make[1]: *** [cmTC_f66e4] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f66e4/fast' failed
+make: *** [cmTC_f66e4/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7211f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7211f.dir/build.make CMakeFiles/cmTC_7211f.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7211f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7211f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7211f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7211f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7211f.dir/CheckFunctionExists.c.o  -o cmTC_7211f -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7211f.dir/build.make:97: recipe for target 'cmTC_7211f' failed
+make[1]: *** [cmTC_7211f] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7211f/fast' failed
+make: *** [cmTC_7211f/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c969/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c969.dir/build.make CMakeFiles/cmTC_5c969.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c969.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_5c969.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5c969
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c969.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_5c969.dir/CheckSymbolExists.c.o  -o cmTC_5c969 -rdynamic 
+CMakeFiles/cmTC_5c969.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5c969.dir/build.make:97: recipe for target 'cmTC_5c969' failed
+make[1]: *** [cmTC_5c969] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5c969/fast' failed
+make: *** [cmTC_5c969/fast] Error 2
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24bef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24bef.dir/build.make CMakeFiles/cmTC_24bef.dir/build
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24bef.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_24bef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_24bef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24bef.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_24bef.dir/CheckFunctionExists.c.o  -o cmTC_24bef -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_24bef.dir/build.make:97: recipe for target 'cmTC_24bef' failed
+make[1]: *** [cmTC_24bef] Error 1
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_24bef/fast' failed
+make: *** [cmTC_24bef/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f94f5/fast"
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f94f5.dir/build.make CMakeFiles/cmTC_f94f5.dir/build
+make[2]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f94f5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_f94f5.dir/CheckSymbolExists.c.o   -c /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f94f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f94f5.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_f94f5.dir/CheckSymbolExists.c.o  -o cmTC_f94f5 -rdynamic 
+CMakeFiles/cmTC_f94f5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f94f5.dir/build.make:97: recipe for target 'cmTC_f94f5' failed
+make[2]: *** [cmTC_f94f5] Error 1
+make[2]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f94f5/fast' failed
+make[1]: *** [cmTC_f94f5/fast] Error 2
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+File /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_359da/fast"
+make[1]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_359da.dir/build.make CMakeFiles/cmTC_359da.dir/build
+make[2]: Entering directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_359da.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_359da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_359da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_359da.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_359da.dir/CheckFunctionExists.c.o  -o cmTC_359da -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_359da.dir/build.make:97: recipe for target 'cmTC_359da' failed
+make[2]: *** [cmTC_359da] Error 1
+make[2]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_359da/fast' failed
+make[1]: *** [cmTC_359da/fast] Error 2
+make[1]: Leaving directory '/home/vaibhav/Projects/OpenANPR/build/CMakeFiles/CMakeTmp'
+
+

@@ -19,19 +19,21 @@ find_package(caffe)
 ################ Boost #################
 set(Boost_USE_STATIC_LIBS        ON)
 FIND_PACKAGE(Boost COMPONENTS system REQUIRED)
-include_directories(${Boost_INCLUDE_DIR} /usr/local/include /usr/local/cuda-8.0/include/ /home/vaibhav/caffe/distribute/include)
+include_directories(${Boost_INCLUDE_DIR} /usr/local/include /usr/local/cuda-8.0/include/ distribute/include distribute/src)
 ########################################
-link_directories (/usr/local/lib /home/vaibhav/caffe/distribute/lib /usr/local/cuda-8.0/lib64 /home/vaibhav/caffe/distribute/lib /usr/lib/x86_64-linux-gnu)
+link_directories (${CMAKE_SOURCE_DIR}/libs /usr/local/lib /usr/local/cuda-8.0/lib64 ${CMAKE_SOURCE_DIR}/distribute/lib)
 
+#add_definitions(-DCUDA -DCUDNN -DGPU -D_DEBUG)
 file(GLOB DETECT_TEXT_SOURCES *.cpp *.c)
 file(GLOB DETECT_TEXT_HEADERS *.hpp *.h)
 
 aux_source_directory(. SRC_LIST)
 
-add_executable(ANPR src/charExtraction.cpp src/charExtraction.h src/main.cpp src/segmentation.cpp src/segmentation.h src/TextDetection.cpp src/TextDetection.h src/charRecognition.h src/charRecognition.cpp)
+add_executable(ANPR src/charExtraction.cpp src/charExtraction.h src/main.cpp src/segmentation.cpp src/segmentation.h src/TextDetection.cpp src/TextDetection.h src/charRecognition.h src/charRecognition.cpp distribute/src/arapaho.hpp distribute/src/arapaho.cpp)
 
 target_link_libraries(ANPR
     ${Boost}
+    darknet-cpp-shared
     ${OpenCV_LIBS}
     lept
     tesseract
@@ -42,4 +44,8 @@ target_link_libraries(ANPR
     hdf5
     hdf5_serial
     hdf5_hl
+    curand
+    cudart
+    cublas
+   
 )

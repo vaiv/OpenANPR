@@ -1,0 +1,1 @@
+./ANPR /path/to/image   ../DetectNet/obj.data ../DetectNet/yolo-LP.cfg ../DetectNet/yolo-LP_2000.weights

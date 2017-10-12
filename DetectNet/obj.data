@@ -1,0 +1,6 @@
+classes= 1  
+train  = /media/vaibhav/DATA/CNN_Models/darknet/train.txt  
+valid  = /media/vaibhav/DATA/CNN_Models/darknet/test.txt  
+names = /home/vaibhav/Projects/OpenANPR/DetectNet/obj.names  
+backup = ./backup/
+

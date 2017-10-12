@@ -2,7 +2,7 @@
 
 #include "charRecognition.h"
 
-Classifier::Classifier(const std::string& model_file, const std::string& trained_file, vector<Mat> possChars) 
+Classifier::Classifier(const std::string& model_file, const std::string& trained_file) 
 {
 #ifdef CPU_ONLY
   Caffe::set_mode(Caffe::CPU);
@@ -24,7 +24,7 @@ Classifier::Classifier(const std::string& model_file, const std::string& trained
   input_geometry_ = cv::Size(input_layer->width(), input_layer->height());
   
   Blob<float>* output_layer = net_->output_blobs()[0];
-  char_masks = possChars;
+  
 }
 
 
@@ -154,8 +154,9 @@ void Classifier::WrapInputLayer(std::vector<cv::Mat>* input_channels) {
   }
 }
 
-void Classifier::Run()
+void Classifier::Run(vector<Mat> possChars)
 {
+	char_masks = possChars;
 	std::string tmp="";
 	for(int i=0;i<char_masks.size();i++)
 		{

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include -I/usr/local/cuda-8.0/include -I/home/vaibhav/caffe/distribute/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -isystem /usr/local/include -I/usr/local/cuda-8.0/include -I/home/vaibhav/Projects/OpenANPR/distribute/include -I/home/vaibhav/Projects/OpenANPR/distribute/src -isystem /usr/local/include/opencv 
 

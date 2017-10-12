@@ -29,7 +29,30 @@ charExtraction::charExtraction(Mat src,int idx)
 	ocr();	
 	
 }
+void equalise(Mat &bgr_image)
+{
+    
+    cv::Mat lab_image;
+    cv::cvtColor(bgr_image, lab_image, CV_BGR2Lab);
 
+    // Extract the L channel
+    std::vector<cv::Mat> lab_planes(3);
+    cv::split(lab_image, lab_planes);  // now we have the L image in lab_planes[0]
+
+    // apply the CLAHE algorithm to the L channel
+    cv::Ptr<cv::CLAHE> clahe = cv::createCLAHE();
+    clahe->setClipLimit(4);
+    cv::Mat dst;
+    clahe->apply(lab_planes[0], dst);
+
+    // Merge the the color planes back into an Lab image
+    dst.copyTo(lab_planes[0]);
+    cv::merge(lab_planes, lab_image);
+
+   // convert back to RGB
+   cv::Mat image_clahe;
+   cv::cvtColor(lab_image, bgr_image, CV_Lab2BGR);
+}
 Mat charExtraction::Cluster(Mat img)
 {
 
@@ -45,7 +68,7 @@ Mat charExtraction::Cluster(Mat img)
 
     	split(imlab, imgRGB);
 	
-	cout<<"clustering done"<<endl;
+	
     	for (int i = 0; i != 3; ++i)
         	imgRGB[i].reshape(1, n).copyTo(img3xN.col(i));
 	
@@ -54,7 +77,7 @@ Mat charExtraction::Cluster(Mat img)
 
     	vector<int> bestLables;
     	kmeans(img3xN, k, bestLables, cv::TermCriteria(), 10, cv::KMEANS_RANDOM_CENTERS);
-	
+	cout<<"clustering done"<<endl;
     	/* Find the largest cluster*/
     	int max = 0, indx= 0, id = 0;
     	vector<int> clusters(k,0);
@@ -90,7 +113,7 @@ Mat charExtraction::Cluster(Mat img)
     	}
 
     	int inc = shape.size();
-
+	
     // Show results
     	Mat3b res(img.size(), Vec3b(0,0,0));
     	vector<Vec3b> colors;
@@ -113,7 +136,7 @@ Mat charExtraction::Cluster(Mat img)
 
 	
     	imshow("Clustering", res);
-//    	waitKey(0);
+    	waitKey(0);
 	return res;
 
 	
@@ -131,20 +154,20 @@ vector<Mat> charExtraction::detectBlobs(Mat &src)
 	else LPlate = src.clone();
 	
 	Canny( LPlate, edges, 70 , 210 , 3 );
-	imshow("char edges", edges);
+//	imshow("char edges", edges);
 //	waitKey(0);
-	findContours( edges, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_SIMPLE, Point(0, 0) );
+	findContours( edges, contours, hierarchy, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE, Point(0, 0) );
 	std::sort(contours.begin(), contours.end(), contour_sorter());
 	cout<<"num of possibilities"<<contours.size()<<endl;
 	for(int i=0;i<contours.size();i++)
 	{
 		Rect poss_char = boundingRect(Mat(contours[i]));
-		if(poss_char.height >= charPlateRatio*LPlate.rows && poss_char.area()<areaTolerance*LPlate.rows*LPlate.cols)
+		if( poss_char.height>poss_char.width && poss_char.height >= charPlateRatio*LPlate.size().height && poss_char.area()<areaTolerance*LPlate.size().height*LPlate.size().width)
 			{
 				Mat poss = src(poss_char).clone();
 				//create a uniform square frame around possible character for CNN input
-				Mat sq_mask = Mat(poss.rows*1.8,poss.rows*1.8,CV_8UC3,cvScalar(255,255,255));
-				poss.copyTo(sq_mask(Rect(poss.rows*0.6,poss.rows*0.45,poss.cols,poss.rows)));
+				Mat sq_mask = Mat(poss.rows*1.3,poss.rows*1.3,CV_8UC3,cvScalar(255,255,255));
+				poss.copyTo(sq_mask(Rect(poss.rows*0.15+((poss.rows-poss.cols)/2),poss.rows*0.15,poss.cols,poss.rows)));
 				//add the possible character
 				chars.push_back(poss.clone());
 				charMasks.push_back(sq_mask.clone());
@@ -170,25 +193,39 @@ vector<Mat> charExtraction::detectBlobs(Mat &src)
 void charExtraction::enhanceImage()
 {
 	//cvtColor(src,src,CV_BGR2GRAY);
-        resize(src, src, Size(), 2,2, INTER_CUBIC );
-	src=Cluster(src);
-
+	//equalise(src);
+	if(imgArea > minArea)
+        {
+		resize(src, src, Size(), 4,4, INTER_CUBIC );
+		src=Cluster(src);
+	}
+	else
+	{
+		resize(src, src, Size(), 4,4, INTER_CUBIC );
+	}
 	//TODO Blob detection thresholding area and inertia for removal of non characters
-	cout<<"starting blob detection"<<endl;
-	charMasks = detectBlobs(src);
+	
+//	src = cvScalar(255,255,255) - src;
+	
+	
 	
    	//dilation helps in certain cases
-	int erosion_size=1;
-        Mat element = getStructuringElement( MORPH_RECT,
-                                            Size( 2*erosion_size + 1, 2*erosion_size+1 ),
-                                            Point( erosion_size, erosion_size ) );
-
+	int dilation_size=1;
+        Mat element = getStructuringElement( MORPH_ELLIPSE,
+                                            Size( 2*dilation_size + 1, 2*dilation_size+1 ),
+                                            Point( dilation_size, dilation_size ) );
+	if(imgArea > minArea)
         dilate( src,src,element);
+
+	cout<<"starting blob detection"<<endl;
+	if(imgArea > minArea)
+	charMasks = detectBlobs(src);
+
 	//erode( src,src,element);
 	cvtColor(src, src, CV_BGR2RGB);
 	imwrite("./res/tmp.jpg",src);
-	imshow("ww",src);
-	waitKey(0);
+//	imshow("ww",src);
+//	waitKey(0);
 }
 
 Mat charExtraction::SWT()
@@ -200,11 +237,11 @@ Mat charExtraction::SWT()
 void charExtraction::ocr()
 {
 	//Stroke Width Transform
-	Mat swt_output=SWT();
+	Mat swt_output;//=SWT();
 	Mat sub;
 	if(imgArea<minArea)
 	{
-		sub=swt_output;
+		sub=src;
 		cout<<"area low res"<<endl;
 	}
 	else 

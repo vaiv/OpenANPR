@@ -19,10 +19,10 @@ typedef std::pair<string, float> Prediction;
 
 class Classifier {
  public:
-  Classifier(const std::string& model_file,const std::string& trained_file, vector<Mat> char_poss);
+  Classifier(const std::string& model_file,const std::string& trained_file);
 
   std::vector<Prediction> Classify(const cv::Mat& img, int N = 5);
-  void Run();
+  void Run(vector<Mat> char_poss);
   std::string getRes();
 
  private:
